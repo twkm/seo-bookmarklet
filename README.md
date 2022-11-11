@@ -1,4 +1,4 @@
-I am no longer maintaining this bookmarklet, so I'm releasing it here for others to build upon and customize. If you want to use it in its current state, the install instructions below should work for quite a while. Or you can fork and build your own implementation. 
+I am no longer maintaining this bookmarklet, so I'm releasing it here for others to build upon and customize.
 
 ## History
 
@@ -12,11 +12,11 @@ The bookmarklet opens a window over the page you're viewing to show you a bunch 
 
 ### Install
 
-Drag this to your bookmarks bar: <a href="javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)" title="SEO Bookmarklet">SEO</a>
+_**Note**_: The `u='raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js'` portion of the code below serves the bookmarklet's source code from Github, which likely won't work for many browsers as there are Content Security Policies restricting loading content directly from Github or other external sources. The code below is provided for reference.
 
-or copy this code: 
+Copy this code to a new bookmark, or create a URL with this as the href attribute and drag to your bookmarks:
 
-    javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
+    javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),u='raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js',ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+u+'?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
 
 ### Full List of Features
 
