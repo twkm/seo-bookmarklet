@@ -1,0 +1,316 @@
+/* 
+
+twkmMessage - Displays the SEO Bookmarklet above all other content (hopefully)
+
+
+*/
+
+@media all {
+
+	#twkmBlurrer {
+		position: fixed; 
+		z-index: 2147483646; 
+		left: 0px; 
+		top: 0px; 
+		width: 100%; 
+		height: 100%; 
+		 
+		opacity: 0.9;
+
+		padding: 0px; 
+		margin: 0px; 
+		background-color: rgb(0, 0, 0); 
+	}
+
+	#twkmMessage {
+		font-family: Helvetica, Arial !important; 
+		text-align: left; 
+		font-size: 14px; 
+		font-weight: normal;
+		text-align: left;
+		text-decoration: none;
+		
+		margin-left: -40%;
+		line-height: 1em; 
+		width: 80%; 
+		height: 80%;
+		overflow: auto;
+		border: 1px solid #0da900;
+		z-index:2147483647;
+		background-color:#FFFFFF; 
+		background-image: none;
+		color:#000000;
+		display:block;
+		position:fixed;
+		top:10%;
+		left:50%;
+		padding:10px;
+		-moz-box-shadow: 0 0 10px 10px #beffc5;
+		-webkit-box-shadow: 0 0 10px 10px #beffc5;
+		box-shadow: 0 0 10px 10px #beffc5;
+
+	}
+
+	#twkmMessage * {
+		font: inherit;
+		text-decoration: inherit;
+		color: #000000;
+		line-height: inherit;
+		background-image: none;
+		
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
+		
+		list-style: none;
+		quotes: none;
+		border-collapse: collapse;
+		border-spacing: 0;
+
+	}
+
+	#twkmMessage a, #twkmMessage a:hover, #twkmMessage a:active, #twkmMessage a:visited, #twkmMessage a:link {
+		color: #3333FF !important;
+		background: none !important;	
+		text-decoration: none !important;
+		font-weight: normal !important;
+		cursor: pointer !important;
+		
+	}
+
+	#twkmMessage a:hover {
+
+		text-decoration: underline !important;
+
+	}
+	
+	#twkmMessage #twkmALinks {
+	
+		background-color: #F9C281 !important;
+		color: #000 !important;
+		margin: 0.8em !important;
+		padding: 0.5em !important;
+		font-size: 0.9em !important;
+	
+	}
+	
+	#twkmMessage #twkmALinks * {
+	
+		background-color: inherit !important;
+		color: inherit !important;
+	
+	}
+	
+	#twkmMessage #twkmALinks span {
+	
+		display: block;
+		margin: 0.5em 0px 0.25em 1em;
+		
+	}
+	
+	#twkmMessage #twkmALinks span a {
+	
+		font-size: 1.3em;
+		color: #000;
+	
+	}
+
+	#twkmMessage #twkmTitle h2 + span {
+
+		margin-left: 10px;
+
+	}
+
+	#twkmMessage h2.title {
+
+		display: inline;
+		font-size: 1.25em;
+		font-weight: bold;
+		
+		text-decoration: none;
+		text-transform: none;
+
+	}
+
+	#twkmMessage #twkmClose, #twkmMessage .close {
+		
+		float: right;
+		clear: right;
+		
+		position: fixed;
+		right: 10%;
+		
+		margin-top: -10px;
+		
+		overflow: display;
+		z-index:2147483647;
+
+	}
+
+	#twkmMessage #twkmClose a, #twkmMessage .close a {
+		
+		display: inline-block;
+		background-color: #FFFFFF;
+		color: #FF0000;
+		border: 2px solid #FF0000;
+		font-weight: bold;
+		
+		padding: 3px;
+		
+		text-decoration: none;
+		vertical-align: middle;
+
+	}
+
+	#twkmMessage #twkmClose a:hover, #twkmMessage .close a:hover {
+
+		background-color: #FF0000;
+		color: #FFFFFF;
+
+	}
+
+	#twkmMessage h3 {
+
+		display: block;
+	
+		text-align: left;
+		font-size: 1.125em;
+		font-weight: bold;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+		
+		padding: 3px;
+		
+		color: #FFFFFF;
+		background-color: #0da900;
+		border-bottom: 2px solid #0d5d00;
+		
+	}
+
+	#twkmMessage h3:hover{
+
+		cursor: pointer;
+
+	}
+
+	#twkmMessage h3 > span.expandContent {
+
+		float: right;
+		font-size: 14px;
+		vertical-align: middle;
+		font-weight: normal;
+		
+		color: #FFFFFF;
+
+	}
+
+	#twkmMessage table {
+
+		margin: 0px;
+		display: block;
+
+	}
+
+	#twkmMessage .twkmContent {
+
+		position: relative;
+		right: 0;
+		min-height: 0;
+
+		padding-left: 15px;
+		padding-bottom: 10px;
+
+	}
+
+	#twkmMessage .twkmContent .contentTable {
+		
+		width: 100%;
+		border: 0;
+
+	}
+
+	#twkmMessage .twkmContent .contentTable th {
+
+		width: 15%;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: right;
+		padding: 2px 8px 5px 2px;
+		vertical-align: top;
+		
+		border: 0;
+
+	}
+
+	#twkmMessage .twkmContent .contentTable td {
+
+		padding: 2px 3px 5px 2px;
+		vertical-align: top;
+		
+		border: 0;
+
+	}
+
+	#twkmMessage #twkmChkText {
+
+		width: 100%;
+		height: 50px;
+
+	}
+
+	#twkmMessage .twkmHidden {
+
+		display: none;
+
+	}
+
+	#twkmMessage div.extLink {
+
+		padding-bottom: 4px;
+
+	}
+
+	/* Custom style classes */
+
+	#twkmMessage input[type=text], #twkmMessage textarea {
+		padding: 3px;
+		border: 1px solid #999;
+	}
+
+	#twkmMessage .twkmAlert {
+		color: #FF0000;
+
+	}
+	#twkmMessage .twkmWarning {
+		color: #FF6600;
+	}
+	#twkmMessage .twkmGood {
+		color: #0da900;
+	}
+	.twkmAlert[title], .twkmWarning[title], .twkmGood[title] {
+		cursor: default;
+	}
+
+	/* Highlight nofollowed links */
+
+	a.twkmNFHighlight {
+
+		background-color: #ffc0cb;
+		background-image: none;
+		
+		border: 1px solid #f5989d;
+
+	}
+
+	/* Highlight img elements without alt attributes set */
+
+	/* Highlight nofollowed links */
+
+	img.twkmNAHighlight {
+		
+		border: 3px dashed #FF0000;
+
+	}
+
+}
