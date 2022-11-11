@@ -123,7 +123,7 @@ var twkm_SB = {
 		if(!d.getElementById('twkmCSS_SEO')){
 			css.type = 'text/css';
 			css.rel = 'stylesheet';
-			css.href = urlDP+'twkm.ca/gadgets/resources/seo-bookmarklet/seo-'+version+'.css?ts='+da.getTime();
+			css.href = urlDP+'raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-'+version+'.css?ts='+da.getTime();
 			css.id = 'twkmCSS_SEO';
 			h.appendChild(css);
 		}

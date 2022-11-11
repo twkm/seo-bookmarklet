@@ -12,11 +12,11 @@ The bookmarklet opens a window over the page you're viewing to show you a bunch 
 
 ### Install
 
-Drag this to your bookmarks bar: <a href="javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'twkm.ca/min/f=gadgets/resources/seo-bookmarklet/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)" title="SEO Bookmarklet (Bleeding Edge)">SEO (BE)</a>
+Drag this to your bookmarks bar: <a href="javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)" title="SEO Bookmarklet">SEO</a>
 
 or copy this code: 
 
-    javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'twkm.ca/min/f=gadgets/resources/seo-bookmarklet/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
+    javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'raw.githubusercontent.com/twkm/seo-bookmarklet/main/src/seo-latest.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','03');b.appendChild(z);}else{twkm_closeThisBox();}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
 
 ### Full List of Features
 
